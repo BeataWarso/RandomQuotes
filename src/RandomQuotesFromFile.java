@@ -70,10 +70,10 @@ public class RandomQuotesFromFile extends JFrame implements ActionListener
 		
 		
 		Random random = new Random();
-		String RandomQuote = list.get(random.nextInt(list.size()));
+		String randomQuote = list.get(random.nextInt(list.size()));
 		
 		
-		jQuotes.setText("<html>"+RandomQuote+ "</html>");
+		jQuotes.setText("<html>"+randomQuote+ "</html>");
 		}
 		else if (source==bExit) {
 			dispose();
